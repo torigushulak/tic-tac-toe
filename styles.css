@@ -1,0 +1,81 @@
+* {
+    background-color: lightgrey;
+}
+
+/* title */
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+/* grid size button */
+#button {
+    background-color: white;
+    border-radius: 6px;
+}
+
+#grid-size {
+    /* text-align: center; */
+    display: flex;
+}
+
+html,
+body { height: 100%;
+
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    min-width: 600px;
+}
+/* grid */
+
+#gameboardElement { 
+    height: 600px;
+    width: 600px; 
+    display: grid;
+    gap: 2;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cellStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#reset {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#reset-button {
+    border-radius: 6px;
+    background-color: white;
+    padding: 5px;
+}
+
+#player {
+    text-align: center;
+    
+}
+
+button {
+    justify-content: center;
+    border-radius: 6px;
+    background-color: white;
+    margin: 5px;
+    padding: 4px 10px 4px 10px
+
+}
